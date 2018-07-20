@@ -36,10 +36,10 @@ end
 def div_op
   $stdout.puts "Number 1?"
   $stdout.flush
-  num1 = $stdin.gets.chomp.to_i
+  num1 = $stdin.gets.chomp.to_f
   $stdout.puts "Number 2?"
   $stdout.flush
-  num2 = $stdin.gets.chomp.to_i
+  num2 = $stdin.gets.chomp.to_f
   puts num1 / num2
 end
 
